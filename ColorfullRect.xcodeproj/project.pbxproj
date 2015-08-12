@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58E7EF081B7ACB3D00E12500 /* BingWallpaper-2015-07-30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58E7EF071B7ACB3D00E12500 /* BingWallpaper-2015-07-30.jpg */; };
 		58E9F6561B7A2387007A393E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9F6551B7A2387007A393E /* main.m */; };
 		58E9F6591B7A2387007A393E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9F6581B7A2387007A393E /* AppDelegate.m */; };
 		58E9F65C1B7A2387007A393E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9F65B1B7A2387007A393E /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		58E9F6611B7A2387007A393E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E9F6601B7A2387007A393E /* Images.xcassets */; };
 		58E9F6641B7A2387007A393E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58E9F6621B7A2387007A393E /* LaunchScreen.xib */; };
 		58E9F6701B7A2387007A393E /* ColorfullRectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9F66F1B7A2387007A393E /* ColorfullRectTests.m */; };
+		58E9F67C1B7A2443007A393E /* LYZRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E9F67B1B7A2443007A393E /* LYZRectangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58E7EF071B7ACB3D00E12500 /* BingWallpaper-2015-07-30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BingWallpaper-2015-07-30.jpg"; sourceTree = "<group>"; };
 		58E9F6501B7A2387007A393E /* ColorfullRect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfullRect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E9F6541B7A2387007A393E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E9F6551B7A2387007A393E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +43,8 @@
 		58E9F6691B7A2387007A393E /* ColorfullRectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfullRectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E9F66E1B7A2387007A393E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E9F66F1B7A2387007A393E /* ColorfullRectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfullRectTests.m; sourceTree = "<group>"; };
+		58E9F67A1B7A2443007A393E /* LYZRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZRectangle.h; sourceTree = "<group>"; };
+		58E9F67B1B7A2443007A393E /* LYZRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZRectangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		58E9F6521B7A2387007A393E /* ColorfullRect */ = {
 			isa = PBXGroup;
 			children = (
+				58E7EF071B7ACB3D00E12500 /* BingWallpaper-2015-07-30.jpg */,
+				58E9F6791B7A23DA007A393E /* Model */,
 				58E9F6571B7A2387007A393E /* AppDelegate.h */,
 				58E9F6581B7A2387007A393E /* AppDelegate.m */,
 				58E9F65A1B7A2387007A393E /* ViewController.h */,
@@ -117,6 +124,15 @@
 				58E9F66E1B7A2387007A393E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58E9F6791B7A23DA007A393E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58E9F67A1B7A2443007A393E /* LYZRectangle.h */,
+				58E9F67B1B7A2443007A393E /* LYZRectangle.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E7EF081B7ACB3D00E12500 /* BingWallpaper-2015-07-30.jpg in Resources */,
 				58E9F65F1B7A2387007A393E /* Main.storyboard in Resources */,
 				58E9F6641B7A2387007A393E /* LaunchScreen.xib in Resources */,
 				58E9F6611B7A2387007A393E /* Images.xcassets in Resources */,
@@ -220,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E9F65C1B7A2387007A393E /* ViewController.m in Sources */,
+				58E9F67C1B7A2443007A393E /* LYZRectangle.m in Sources */,
 				58E9F6591B7A2387007A393E /* AppDelegate.m in Sources */,
 				58E9F6561B7A2387007A393E /* main.m in Sources */,
 			);
@@ -416,6 +434,7 @@
 				58E9F6751B7A2387007A393E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58E9F6761B7A2387007A393E /* Build configuration list for PBXNativeTarget "ColorfullRectTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				58E9F6781B7A2387007A393E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
